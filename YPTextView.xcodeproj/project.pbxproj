@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9245CB91C04A8A000ACB6BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9245CB81C04A8A000ACB6BB /* main.m */; };
+		E9245CBC1C04A8A000ACB6BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9245CBB1C04A8A000ACB6BB /* AppDelegate.m */; };
+		E9245CBF1C04A8A000ACB6BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9245CBE1C04A8A000ACB6BB /* ViewController.m */; };
+		E9245CC21C04A8A000ACB6BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9245CC01C04A8A000ACB6BB /* Main.storyboard */; };
+		E9245CC41C04A8A000ACB6BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9245CC31C04A8A000ACB6BB /* Assets.xcassets */; };
+		E9245CC71C04A8A000ACB6BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9245CC51C04A8A000ACB6BB /* LaunchScreen.storyboard */; };
+		E9245CD21C04A8A000ACB6BB /* YPTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9245CD11C04A8A000ACB6BB /* YPTextViewTests.m */; };
+		E9245CDD1C04A8A000ACB6BB /* YPTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9245CDC1C04A8A000ACB6BB /* YPTextViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9245CCE1C04A8A000ACB6BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9245CAC1C04A8A000ACB6BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9245CB31C04A8A000ACB6BB;
+			remoteInfo = YPTextView;
+		};
+		E9245CD91C04A8A000ACB6BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9245CAC1C04A8A000ACB6BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9245CB31C04A8A000ACB6BB;
+			remoteInfo = YPTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9245CB41C04A8A000ACB6BB /* YPTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9245CB81C04A8A000ACB6BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9245CBA1C04A8A000ACB6BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9245CBB1C04A8A000ACB6BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9245CBD1C04A8A000ACB6BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E9245CBE1C04A8A000ACB6BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E9245CC11C04A8A000ACB6BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9245CC31C04A8A000ACB6BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9245CC61C04A8A000ACB6BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9245CC81C04A8A000ACB6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9245CCD1C04A8A000ACB6BB /* YPTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9245CD11C04A8A000ACB6BB /* YPTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPTextViewTests.m; sourceTree = "<group>"; };
+		E9245CD31C04A8A000ACB6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9245CD81C04A8A000ACB6BB /* YPTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9245CDC1C04A8A000ACB6BB /* YPTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPTextViewUITests.m; sourceTree = "<group>"; };
+		E9245CDE1C04A8A000ACB6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9245CB11C04A8A000ACB6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9245CCA1C04A8A000ACB6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9245CD51C04A8A000ACB6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9245CAB1C04A8A000ACB6BB = {
+			isa = PBXGroup;
+			children = (
+				E9245CB61C04A8A000ACB6BB /* YPTextView */,
+				E9245CD01C04A8A000ACB6BB /* YPTextViewTests */,
+				E9245CDB1C04A8A000ACB6BB /* YPTextViewUITests */,
+				E9245CB51C04A8A000ACB6BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9245CB51C04A8A000ACB6BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9245CB41C04A8A000ACB6BB /* YPTextView.app */,
+				E9245CCD1C04A8A000ACB6BB /* YPTextViewTests.xctest */,
+				E9245CD81C04A8A000ACB6BB /* YPTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9245CB61C04A8A000ACB6BB /* YPTextView */ = {
+			isa = PBXGroup;
+			children = (
+				E9245CBA1C04A8A000ACB6BB /* AppDelegate.h */,
+				E9245CBB1C04A8A000ACB6BB /* AppDelegate.m */,
+				E9245CBD1C04A8A000ACB6BB /* ViewController.h */,
+				E9245CBE1C04A8A000ACB6BB /* ViewController.m */,
+				E9245CC01C04A8A000ACB6BB /* Main.storyboard */,
+				E9245CC31C04A8A000ACB6BB /* Assets.xcassets */,
+				E9245CC51C04A8A000ACB6BB /* LaunchScreen.storyboard */,
+				E9245CC81C04A8A000ACB6BB /* Info.plist */,
+				E9245CB71C04A8A000ACB6BB /* Supporting Files */,
+			);
+			path = YPTextView;
+			sourceTree = "<group>";
+		};
+		E9245CB71C04A8A000ACB6BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9245CB81C04A8A000ACB6BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9245CD01C04A8A000ACB6BB /* YPTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9245CD11C04A8A000ACB6BB /* YPTextViewTests.m */,
+				E9245CD31C04A8A000ACB6BB /* Info.plist */,
+			);
+			path = YPTextViewTests;
+			sourceTree = "<group>";
+		};
+		E9245CDB1C04A8A000ACB6BB /* YPTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9245CDC1C04A8A000ACB6BB /* YPTextViewUITests.m */,
+				E9245CDE1C04A8A000ACB6BB /* Info.plist */,
+			);
+			path = YPTextViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9245CB31C04A8A000ACB6BB /* YPTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9245CE11C04A8A000ACB6BB /* Build configuration list for PBXNativeTarget "YPTextView" */;
+			buildPhases = (
+				E9245CB01C04A8A000ACB6BB /* Sources */,
+				E9245CB11C04A8A000ACB6BB /* Frameworks */,
+				E9245CB21C04A8A000ACB6BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YPTextView;
+			productName = YPTextView;
+			productReference = E9245CB41C04A8A000ACB6BB /* YPTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9245CCC1C04A8A000ACB6BB /* YPTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9245CE41C04A8A000ACB6BB /* Build configuration list for PBXNativeTarget "YPTextViewTests" */;
+			buildPhases = (
+				E9245CC91C04A8A000ACB6BB /* Sources */,
+				E9245CCA1C04A8A000ACB6BB /* Frameworks */,
+				E9245CCB1C04A8A000ACB6BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9245CCF1C04A8A000ACB6BB /* PBXTargetDependency */,
+			);
+			name = YPTextViewTests;
+			productName = YPTextViewTests;
+			productReference = E9245CCD1C04A8A000ACB6BB /* YPTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9245CD71C04A8A000ACB6BB /* YPTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9245CE71C04A8A000ACB6BB /* Build configuration list for PBXNativeTarget "YPTextViewUITests" */;
+			buildPhases = (
+				E9245CD41C04A8A000ACB6BB /* Sources */,
+				E9245CD51C04A8A000ACB6BB /* Frameworks */,
+				E9245CD61C04A8A000ACB6BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9245CDA1C04A8A000ACB6BB /* PBXTargetDependency */,
+			);
+			name = YPTextViewUITests;
+			productName = YPTextViewUITests;
+			productReference = E9245CD81C04A8A000ACB6BB /* YPTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9245CAC1C04A8A000ACB6BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = YPMac;
+				TargetAttributes = {
+					E9245CB31C04A8A000ACB6BB = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					E9245CCC1C04A8A000ACB6BB = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = E9245CB31C04A8A000ACB6BB;
+					};
+					E9245CD71C04A8A000ACB6BB = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = E9245CB31C04A8A000ACB6BB;
+					};
+				};
+			};
+			buildConfigurationList = E9245CAF1C04A8A000ACB6BB /* Build configuration list for PBXProject "YPTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9245CAB1C04A8A000ACB6BB;
+			productRefGroup = E9245CB51C04A8A000ACB6BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9245CB31C04A8A000ACB6BB /* YPTextView */,
+				E9245CCC1C04A8A000ACB6BB /* YPTextViewTests */,
+				E9245CD71C04A8A000ACB6BB /* YPTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9245CB21C04A8A000ACB6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9245CC71C04A8A000ACB6BB /* LaunchScreen.storyboard in Resources */,
+				E9245CC41C04A8A000ACB6BB /* Assets.xcassets in Resources */,
+				E9245CC21C04A8A000ACB6BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9245CCB1C04A8A000ACB6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9245CD61C04A8A000ACB6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9245CB01C04A8A000ACB6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9245CBF1C04A8A000ACB6BB /* ViewController.m in Sources */,
+				E9245CBC1C04A8A000ACB6BB /* AppDelegate.m in Sources */,
+				E9245CB91C04A8A000ACB6BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9245CC91C04A8A000ACB6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9245CD21C04A8A000ACB6BB /* YPTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9245CD41C04A8A000ACB6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9245CDD1C04A8A000ACB6BB /* YPTextViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9245CCF1C04A8A000ACB6BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9245CB31C04A8A000ACB6BB /* YPTextView */;
+			targetProxy = E9245CCE1C04A8A000ACB6BB /* PBXContainerItemProxy */;
+		};
+		E9245CDA1C04A8A000ACB6BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9245CB31C04A8A000ACB6BB /* YPTextView */;
+			targetProxy = E9245CD91C04A8A000ACB6BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9245CC01C04A8A000ACB6BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9245CC11C04A8A000ACB6BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9245CC51C04A8A000ACB6BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9245CC61C04A8A000ACB6BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9245CDF1C04A8A000ACB6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9245CE01C04A8A000ACB6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9245CE21C04A8A000ACB6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YPTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yp.YPTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9245CE31C04A8A000ACB6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YPTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yp.YPTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E9245CE51C04A8A000ACB6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YPTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yp.YPTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YPTextView.app/YPTextView";
+			};
+			name = Debug;
+		};
+		E9245CE61C04A8A000ACB6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YPTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yp.YPTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YPTextView.app/YPTextView";
+			};
+			name = Release;
+		};
+		E9245CE81C04A8A000ACB6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YPTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yp.YPTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YPTextView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E9245CE91C04A8A000ACB6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YPTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yp.YPTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YPTextView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9245CAF1C04A8A000ACB6BB /* Build configuration list for PBXProject "YPTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9245CDF1C04A8A000ACB6BB /* Debug */,
+				E9245CE01C04A8A000ACB6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9245CE11C04A8A000ACB6BB /* Build configuration list for PBXNativeTarget "YPTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9245CE21C04A8A000ACB6BB /* Debug */,
+				E9245CE31C04A8A000ACB6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9245CE41C04A8A000ACB6BB /* Build configuration list for PBXNativeTarget "YPTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9245CE51C04A8A000ACB6BB /* Debug */,
+				E9245CE61C04A8A000ACB6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9245CE71C04A8A000ACB6BB /* Build configuration list for PBXNativeTarget "YPTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9245CE81C04A8A000ACB6BB /* Debug */,
+				E9245CE91C04A8A000ACB6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9245CAC1C04A8A000ACB6BB /* Project object */;
+}
